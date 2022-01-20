@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-20T01:11:22.374172-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 1b7ebe3adf611938ee6883b776eabb92b40d806f13f51afa484476fe7f11da21
+    name: test-chart
+    type: application
+    urls:
+    - https://atbijo.github.io/helm-testing/test-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-20T01:11:22.372659-06:00"
