@@ -3,9 +3,9 @@ entries:
   ibm-cp4d-watson-knowledge-catalog-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-02-09T01:29:33.252169-06:00"
+    created: "2022-02-10T12:49:38.902252-06:00"
     description: A Helm chart for Kubernetes
-    digest: aeee77efdacc9f555df59b7cd788a5fd2ac7cc1ecfa48908ab5154814471e23d
+    digest: e0c483067e2b7fb9f6e4a375c3e79a8d1b674781e5acbb9d58629f3463470934
     name: ibm-cp4d-watson-knowledge-catalog-instance
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   ibm-cp4d-watson-studio-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-02-09T01:29:33.2533-06:00"
+    created: "2022-02-10T12:49:38.904069-06:00"
     description: A Helm chart for Kubernetes
     digest: a012e7b1bd0ba79d261b9c5662b68aa2e0c324c9b64057fbeafa616788165d68
     name: ibm-cp4d-watson-studio-instance
@@ -25,7 +25,7 @@ entries:
   ibm-cpd-platform-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-02-09T01:29:33.254477-06:00"
+    created: "2022-02-10T12:49:38.904874-06:00"
     description: A Helm chart for Kubernetes
     digest: 4d2451bef38c5687d9983da8c13cf3befa03170565862aa3abfe9da33ec6b1d0
     name: ibm-cpd-platform-instance
@@ -36,7 +36,7 @@ entries:
   ibm-cpd-platform-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-09T01:29:33.255135-06:00"
+    created: "2022-02-10T12:49:38.905668-06:00"
     description: A Helm chart for Kubernetes
     digest: f948477a097805cab734fdf40bf55c413b7bc552d42f96a991a084808f4f3d39
     name: ibm-cpd-platform-operator
@@ -47,7 +47,7 @@ entries:
   ibm-cpd-scheduling-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-09T01:29:33.256001-06:00"
+    created: "2022-02-10T12:49:38.907725-06:00"
     description: A Helm chart for Kubernetes
     digest: 9676a50cffa5e6f77420bea85d636345c95256b55433003f8a84191e83150e94
     name: ibm-cpd-scheduling-operator
@@ -58,7 +58,7 @@ entries:
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-09T01:29:33.257457-06:00"
+    created: "2022-02-10T12:49:38.90885-06:00"
     description: A Helm chart for Kubernetes
     digest: 1b7ebe3adf611938ee6883b776eabb92b40d806f13f51afa484476fe7f11da21
     name: test-chart
@@ -66,4 +66,4 @@ entries:
     urls:
     - https://atbijo.github.io/helm-testing/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-09T01:29:33.251658-06:00"
+generated: "2022-02-10T12:49:38.897981-06:00"
