@@ -3,7 +3,7 @@ entries:
   ibm-cp4d-analytics-engine-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-06-17T13:50:45.646638-05:00"
+    created: "2022-07-28T15:47:35.8017-05:00"
     description: A Helm chart for Kubernetes
     digest: 4abe5beffa78ff0541177c5c28d3cc6114b7f94efed8928d3cccce2584c196ab
     name: ibm-cp4d-analytics-engine-instance
@@ -14,7 +14,7 @@ entries:
   ibm-cp4d-data-virtualization-instance:
   - apiVersion: v2
     appVersion: 1.7.8
-    created: "2022-06-17T13:50:45.647188-05:00"
+    created: "2022-07-28T15:47:35.802233-05:00"
     description: A Helm chart for Kubernetes
     digest: d9a2c23ecb08020d663886a2e43faa07ae2ba78674a30a58702ed3f67e59b857
     name: ibm-cp4d-data-virtualization-instance
@@ -25,7 +25,7 @@ entries:
   ibm-cp4d-db2-warehouse-instance:
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2022-06-17T13:50:45.647449-05:00"
+    created: "2022-07-28T15:47:35.802752-05:00"
     description: A Helm chart for Kubernetes
     digest: 373a3d54427964a5837e6f3a5f6df720954fd1a59a98825d4cf283a595881eea
     name: ibm-cp4d-db2-warehouse-instance
@@ -36,7 +36,7 @@ entries:
   ibm-cp4d-watson-knowledge-catalog-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-06-17T13:50:45.647899-05:00"
+    created: "2022-07-28T15:47:35.803252-05:00"
     description: A Helm chart for Kubernetes
     digest: e0c483067e2b7fb9f6e4a375c3e79a8d1b674781e5acbb9d58629f3463470934
     name: ibm-cp4d-watson-knowledge-catalog-instance
@@ -47,7 +47,7 @@ entries:
   ibm-cp4d-watson-studio-instance:
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-06-17T13:50:45.648448-05:00"
+    created: "2022-07-28T15:47:35.803786-05:00"
     description: A Helm chart for Kubernetes
     digest: a012e7b1bd0ba79d261b9c5662b68aa2e0c324c9b64057fbeafa616788165d68
     name: ibm-cp4d-watson-studio-instance
@@ -55,10 +55,21 @@ entries:
     urls:
     - https://atbijo.github.io/helm-testing/ibm-cp4d-watson-studio-instance-0.1.2.tgz
     version: 0.1.2
+  ibm-cpd-platform-instance:
+  - apiVersion: v2
+    appVersion: 4.5.0
+    created: "2022-07-28T15:47:35.804288-05:00"
+    description: A Helm chart for Kubernetes
+    digest: ba27d0549b239eb246e0f7b31cb2a3a0d2f1f23e0fab100d28c544b8efeab24d
+    name: ibm-cpd-platform-instance
+    type: application
+    urls:
+    - https://atbijo.github.io/helm-testing/ibm-cpd-platform-instance-0.2.0.tgz
+    version: 0.2.0
   ibm-cpd-scheduling-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-17T13:50:45.648839-05:00"
+    created: "2022-07-28T15:47:35.804642-05:00"
     description: A Helm chart for Kubernetes
     digest: 9676a50cffa5e6f77420bea85d636345c95256b55433003f8a84191e83150e94
     name: ibm-cpd-scheduling-operator
@@ -66,15 +77,4 @@ entries:
     urls:
     - https://atbijo.github.io/helm-testing/ibm-cpd-scheduling-operator-0.1.2.tgz
     version: 0.1.2
-  test-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-06-17T13:50:45.649444-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 1b7ebe3adf611938ee6883b776eabb92b40d806f13f51afa484476fe7f11da21
-    name: test-chart
-    type: application
-    urls:
-    - https://atbijo.github.io/helm-testing/test-chart-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-06-17T13:50:45.645882-05:00"
+generated: "2022-07-28T15:47:35.799039-05:00"

@@ -1,0 +1,13 @@
+# Default values for ibm-cpd-platform-instance.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+metadata:
+  name: ibmcpd-cr
+spec:
+  license:
+    accept: true
+    license: Enterprise
+  fileStorageClass: managed-nfs-storage
+  blockStorageClass: managed-nfs-storage
+  version: 4.5.0
