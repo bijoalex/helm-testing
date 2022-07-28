@@ -9,5 +9,6 @@ spec:
   license:
     accept: "true"
     license: Enterprise
-  version: 4.0.4
-  storageClass: managed-nfs-storage
+  version: 4.5.0
+  fileStorageClass: managed-nfs-storage
+  blockStorageClass: managed-nfs-storage
