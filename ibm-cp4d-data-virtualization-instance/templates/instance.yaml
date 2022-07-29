@@ -6,5 +6,6 @@ spec:
   license:
     accept: {{ .Values.spec.license.accept }}
     license: {{ .Values.spec.license.license }}
-  size: {{ .Values.spec.size }}
   version: {{ .Values.spec.version }}
+  fileStorageClass: {{ .Values.spec.fileStorageClass }}
+  blockStorageClass: {{ .Values.spec.blockStorageClass }}

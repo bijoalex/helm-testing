@@ -9,5 +9,6 @@ spec:
   license:
     accept: "true"
     license: Enterprise
-  size: small
-  version: 1.7.8
+  fileStorageClass: managed-nfs-storage
+  blockStorageClass: managed-nfs-storage
+  version: 1.8.0
