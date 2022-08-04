@@ -1,0 +1,18 @@
+apiVersion: operator.ibm.com/v1alpha1
+kind: OperandRegistry
+metadata:
+  name: {{ .Values.metadata.name }}
+  {{- if .Values.metadata.namespace }}
+  namespace: {{ .Values.metadata.namespace }}
+  {{- end }}
+  {{- if .Values.metadata.annotations }}
+  annotations:
+    {{- toYaml .Values.metadata.annotations | nindent 4 }}
+  {{- end }}
+  {{- if .Values.metadata.labels }}
+  labels:
+    {{- toYaml .Values.metadata.labels | nindent 4 }}
+  {{- end }}
+spec:
+  operators:
+    {{- toYaml .Values.spec.operators | nindent 4 }}
