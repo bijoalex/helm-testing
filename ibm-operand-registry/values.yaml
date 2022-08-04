@@ -16,25 +16,3 @@ spec:
       sourceNamespace: openshift-marketplace
       installPlanApproval: Automatic
       channel: ""
-
-
-
-# apiVersion: operator.ibm.com/v1alpha1
-# kind: OperandRegistry
-# metadata:
-#   name: ibm-cpd-ae-registry
-#   namespace: ibm-common-services
-#   labels:
-#     app.kubernetes.io/instance: olm-utils
-#     app.kubernetes.io/managed-by: olm-utils
-#     app.kubernetes.io/name: olm-utils
-#     release: 4.5.0
-# spec:
-#   operators:
-#     - name: ibm-cpd-ae-operator
-#       namespace: ibm-common-services
-#       scope: public
-#       packageName: analyticsengine-operator
-#       sourceNamespace: openshift-marketplace
-#       installPlanApproval: Automatic
-#       channel: v2.0
